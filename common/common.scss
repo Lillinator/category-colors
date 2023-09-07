@@ -1,0 +1,20 @@
+.category-$category_slug .d-header {
+    background: rgba($category_background_color, $transparency);
+    .d-header-icons .d-icon  {
+        color: #{$header_icons_color};
+    }
+    .header-sidebar-toggle button .d-icon {
+        color: #{$header_icons_color};
+        &:hover {
+            color: #{$header_icons_hover};
+        }
+    }
+}    
+    
+// .category-<category-slug> .d-header #site-logo.logo-small {
+//	content:url($small-logo);
+// }
+
+// .category-<category-slug> .d-header #site-logo.logo-big {
+//	content:url($big-logo);
+// }
